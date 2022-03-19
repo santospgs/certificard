@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(112.58650981892356deg, rgba(2, 27, 62,1) 5.4125%,rgba(81, 119, 149,1) 96.9125%);
+	background-attachment:fixed;
+}
+
+.container{
+	background:#f7f7f7;
+	margin:60px;
+	border-radius: 5px;
+	box-shadow:6px 6px 6px #0E1D2F;
+	color: #1C1C1C;
+	padding:60px;
+}
+
+
+/*##### HEADER #####*/
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+.perfil {
+	display:flex;	
+}
+
+.perfil-foto{
+	border-radius: 5px;
+	max-height:150px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo{
+	margin-left:16px;
+}
+
+.titulo h1{
+	font-weight:700;
+	font-size:36px;
+}
+
+.titulo h3{
+	font-weight:normal;
+	font-size:24px;
+}
+
+.tema button{
+	align-self: flex-end;
+	font-size: 15px;
+	padding: 8px 16px;
+	background-color: #Ecf4ff;
+	border-radius: 100px;	
+	box-sizing: border-box;
+	cursor:pointer;
+}
+
+/*##### PROJETOS #####*/
+.projetos{
+	display:flex;
+	flex-direction:column;
+	align-items:left;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 5px;    
+    padding: 25px;
+	margin-top: 30px;
+}
+
+.projetos-titulo{
+	list-style: none;
+    font-weight: 700;
+    font-size: 48px;
+	line-height: 30px;
+	padding: 0px;
+}
+
+.projetos-item{
+	list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.projetos-item a{
+	color:#1C1C1C;
+	text-decoration: none;
+}
+
+.fa{
+	color:#000000;
+}
+
+.dark {	
+	background: linear-gradient(112.58650981892356deg, rgba(51, 69, 79,1) 5.4125%,rgba(31, 41, 47,1) 96.9125%);
+}
+
+.dark .container{
+	background: linear-gradient(112.58650981892356deg, rgba(95, 95, 95,1) 5.4125%,rgba(0, 0, 0,1) 96.9125%);
+	color:#Ecf4ff;
+}
+
+.dark .projetos {
+	background: linear-gradient(113.1438319006487deg, rgba(0, 63, 122,1) 2.24375%,rgba(0, 0, 0,1) 96.99374999999999%);
+}
+
+.dark .tema button{
+	background-color: #7F8C8D;
+	color: #Ecf4ff;
+}
+
+.dark .fa{
+	color:#ffffff;
+}
